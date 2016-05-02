@@ -1,0 +1,25 @@
+{
+  "name": "programmer_blog",
+  "version": "1.0.0",
+  "description": "A blogging platform for programmers to post code snippets (complete with syntax highlighting).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "programming",
+    "syntax",
+    "highlighting"
+  ],
+  "author": "Christian J. Hughes",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "prism": "^0.0.1"
+  },
+  "devDependencies": {
+    "sqlite3": "^3.1.1",
+    "browserify": "^13.0.0"
+  }
+}

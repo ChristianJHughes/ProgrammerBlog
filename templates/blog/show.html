@@ -1,0 +1,16 @@
+<% content.title = params[0].post_name %>
+<h1><%= params[0].post_name %></h1>
+<div>
+  <%= params[0].post_html %>
+</div>
+<hr />
+<h3>Comments</h3>
+<div id="commentDiv">
+  <%= partial('blog/_comments', params[1]); %>
+  <br />
+</div>
+<hr />
+<h4>Add a New Comment</h4>
+<textarea id="commentText"></textarea>
+<br />
+<button type="button" id="commentButton">Submit Comment</button>
